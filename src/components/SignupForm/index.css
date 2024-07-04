@@ -1,0 +1,19 @@
+.sign-up-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.form-contianer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .form-contianer {
+    width: 60%;
+    padding: 20px;
+    border: 2px solid black;
+  }
+}
